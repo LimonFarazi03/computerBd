@@ -9,7 +9,7 @@ const Navbar = () => {
   const {pathname} = useLocation();
   // console.log(pathname)
   return (
-    <div className=' colrs flex items-center justify-between p-2 mx-2 mt-2 mb-5 rounded-md'>
+    <div className=' colrs flex items-center justify-between p-2 mx-2 mt-2 mb-2 rounded-md'>
       <img width='56px' src={logo} alt="" />
       <ul className='flex'>
       <nav>

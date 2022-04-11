@@ -1,0 +1,19 @@
+.Comp-product{
+  background:#FFE8A1;
+}
+.home-clr{
+  background:#F2F4F8;
+}
+.btn-view{
+  background: white;
+  border: 1px solid blue;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  transition: .5s;
+  font-weight: bold;
+}
+.btn-view:hover{
+  background: blue;
+  color: white;
+}
