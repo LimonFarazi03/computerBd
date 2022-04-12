@@ -1,11 +1,12 @@
 import React from 'react';
 import banner from '../Usefull/Images/banner.jpg';
 import './Home.css';
+import smallBanner from '../Usefull/Images/banner-small.jpg'
 
 const Home = () => {
   return (
-    <div className='home-clr mx-3 flex justify-between'>
-     <div>
+    <div className='home-clr mx-3 flex justify-around'>
+     <div className='rounded-md mr-5'>
         <div className='text-center p-3 Comp-product'>
         <h1 className='font-bold my-2'>Compare Products</h1>
           <p>Choose Two Products to Compare</p>
@@ -13,11 +14,11 @@ const Home = () => {
           <input placeholder="Search and Select Product" className='p-2 mx-4 text-1xl bg-white rounded w-25' type="text" /> <br />
           <button className='btn-view mt-3'>Views Comparison</button>
         </div>
-        <div>
-          <img src="" alt="" srcset="" />
+        <div className='rounded-md mt-4 mr-5'>
+          <img src={smallBanner}  width='290px' alt="small-banner" srcset="" />
         </div>
       </div>
-      <img className='rounded-md' width='700px' src={banner} alt="" />
+      <img src={banner} className='rounded-md' width='1000px' alt="" />
     </div>
   );
 };

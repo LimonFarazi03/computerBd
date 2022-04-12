@@ -1,10 +1,15 @@
-.Comp-product{
-  background:#FFE8A1;
+.Comp-product {
+  background: #FFE8A1;
+  width: 290px;
+  height: 318px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.home-clr{
-  background:#F2F4F8;
+
+.home-clr {
+  /* background: #F2F4F8; */
 }
-.btn-view{
+
+.btn-view {
   background: white;
   border: 1px solid blue;
   border-radius: 10px;
@@ -12,8 +17,10 @@
   padding: 10px;
   transition: .5s;
   font-weight: bold;
+  margin-top: 35px;
 }
-.btn-view:hover{
+
+.btn-view:hover {
   background: blue;
   color: white;
 }
