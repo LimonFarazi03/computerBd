@@ -16,8 +16,8 @@ const Navbar = () => {
         <NavLink className='mr-5 text-bold text-white' to="/">Home</NavLink>
         <NavLink className='mr-5 text-bold text-white' to="/reviews">Reviews</NavLink>
         <NavLink className='mr-5 text-bold text-white' to="/dashboard">Dashboard</NavLink>
-        <NavLink className='mr-5 text-bold text-white' to="/about">About</NavLink>
         <NavLink className='mr-5 text-bold text-white' to="/blogs">Blogs</NavLink>
+        <NavLink className='mr-5 text-bold text-white' to="/about">About</NavLink>
       </nav>
       </ul>
     </div>

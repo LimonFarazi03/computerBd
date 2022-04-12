@@ -1,0 +1,19 @@
+.review-box{
+  height: 260px;
+  width: 370px;
+  overflow: scroll;
+  margin-left: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button{
+  background: white;
+  padding: 10px;
+  font-weight: bold;
+  margin:50px 0px;
+  border: 3px solid gray;
+  transition: .5s;
+}
+button:hover{
+  background: #001029;
+  color: white;
+}
